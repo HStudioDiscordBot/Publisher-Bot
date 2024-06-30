@@ -1,0 +1,34 @@
+{
+  "name": "publisher-bot",
+  "version": "1.0.0",
+  "description": "Automatically publish messages or news in your announcement channels!",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "bot": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "lint": "npx eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HStudioDiscordBot/Publisher-Bot.git"
+  },
+  "keywords": [
+    "publisher-bot"
+  ],
+  "author": "HStudio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HStudioDiscordBot/Publisher-Bot/issues"
+  },
+  "homepage": "https://github.com/HStudioDiscordBot/Publisher-Bot#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
